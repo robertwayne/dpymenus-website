@@ -1,0 +1,13 @@
+html, body {
+  background: #36393F;
+  color: #D9DDD4;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.25s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}

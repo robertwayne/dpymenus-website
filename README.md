@@ -1,20 +1,15 @@
-# dpymenus-website
+# learn :: dpymenus
 
-## Build Setup
+This repository is where the code for the [dpymenus](https://github.com/robertwayne/dpymenus) website 
+and learning resources live, as well as some related tools like Embed Code Generator.
 
-```bash
-# install dependencies
-$ yarn install
+### Running locally
+Clone the repo onto your machine:
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+    clone https://github.com/robertwayne/dpymenus-website
+    
+Run with:
 
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+    yarn start
+    
+Navigate to `localhost:3000` and browse to your hearts content!
