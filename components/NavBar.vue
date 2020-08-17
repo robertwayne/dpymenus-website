@@ -13,9 +13,9 @@
       </div>
       <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
         <div class="text-sm lg:flex-grow text-right">
-          <nuxt-link to="https://dpymenus.rtfd.io" class="block mt-4 lg:inline-block lg:mt-0 text-dis-grey hover:text-dis-light-grey mr-4">
+          <a href="https://dpymenus.rtfd.io" class="block mt-4 lg:inline-block lg:mt-0 text-dis-grey hover:text-dis-light-grey mr-4">
             API Docs
-          </nuxt-link>
+          </a>
           <nuxt-link to="/codegen" class="block mt-4 lg:inline-block lg:mt-0 text-dis-grey hover:text-white mr-4">
             Embed Code Gen
           </nuxt-link>
