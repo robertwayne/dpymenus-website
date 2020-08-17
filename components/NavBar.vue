@@ -2,7 +2,7 @@
   <nav>
     <nav class="flex items-center justify-between bg-dis-darkest flex-wrap p-6">
       <div class="flex items-center flex-shrink-0 text-dis-light-grey mr-6">
-          <span class="font-semibold text-2xl tracking-tight">
+          <span class="font-semibold text-2xl tracking-tight logo-text">
             learn :: dpymenus
           </span>
       </div>
@@ -13,12 +13,12 @@
       </div>
       <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
         <div class="text-sm lg:flex-grow text-right">
-          <nuxt-link to="about" class="block mt-4 lg:inline-block lg:mt-0 text-dis-grey hover:text-dis-light-grey mr-4">
+          <nuxt-link to="https://dpymenus.rtfd.io" class="block mt-4 lg:inline-block lg:mt-0 text-dis-grey hover:text-dis-light-grey mr-4">
             API Docs
           </nuxt-link>
-          <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-dis-grey hover:text-white mr-4">
+          <nuxt-link to="/codegen" class="block mt-4 lg:inline-block lg:mt-0 text-dis-grey hover:text-white mr-4">
             Embed Code Gen
-          </a>
+          </nuxt-link>
           <a href="https://github.com/robertwayne/dpymenus" class="block mt-4 lg:inline-block lg:mt-0 text-dis-grey hover:text-white">
             GitHub
           </a>
@@ -31,3 +31,9 @@
 <script>
 
 </script>
+
+<style>
+.logo-text {
+  font-family: 'Montserrat', sans-serif;
+}
+</style>

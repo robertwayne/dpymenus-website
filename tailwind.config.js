@@ -27,7 +27,8 @@ module.exports = {
             }
           },
           h2: {
-            color: '#D9DDD4'
+            color: '#D9DDD4',
+            'font-family': 'Montserrat, sans-serif',
           },
           hr: {
             color: '#D9DDD4',
