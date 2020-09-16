@@ -26,14 +26,29 @@ module.exports = {
               color: '#D9DDD4'
             }
           },
+          h1: {
+            color: '#D9DDD4',
+            'font-family': 'Montserrat, sans-serif',
+          },
           h2: {
+            color: '#D9DDD4',
+            'font-family': 'Montserrat, sans-serif',
+          },
+          h3: {
             color: '#D9DDD4',
             'font-family': 'Montserrat, sans-serif',
           },
           hr: {
             color: '#D9DDD4',
             'border-color': '#D9DDD4'
-          }
+          },
+          code: {
+            color: '#D9DDD4',
+            background: '#202225'
+          },
+          strong: {
+            color: '#D9DDD4',
+          },
         }
       }
     }
