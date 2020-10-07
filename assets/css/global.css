@@ -5,9 +5,17 @@ html, body {
 
 .page-enter-active,
 .page-leave-active {
-  transition: opacity 0.25s;
+  transition: opacity 150ms;
 }
 .page-enter,
 .page-leave-to {
   opacity: 0;
+}
+
+footer {
+  margin-top: 2%;
+}
+
+.toc {
+  list-style: none;
 }

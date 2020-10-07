@@ -1,7 +1,7 @@
 <template>
   <div>
     <NavBar />
-    <TutorialNavBar />
+    <TutorialNavBar v-if="$route.path.includes('tutorials')"/>
     <article class="xl:container xl:mx-auto h-full">
       <div class="bg-dis-darker rounded p-5">
         <Nuxt />
@@ -11,7 +11,11 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
+
+export default {
+
+}
 </script>
 
 <style>
