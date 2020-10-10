@@ -121,7 +121,7 @@ the asyncio.run() function, which will start an event loop and all lights are ag
 into your server, it should be online!
 
 <details>
-  <summary>Click to view the full code!</summary>
+  <summary><strong>Click to view the full code.</strong></summary>
 
 ```python
 import asyncio
