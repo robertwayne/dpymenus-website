@@ -94,6 +94,7 @@ and [here](https://discordpy.readthedocs.io/en/latest/api.html?highlight=on_read
 We've also attached a decorator to one of our methods, **@cogwatch.watch**. If you are unfamiliar with decorators, I 
 recommend reading up on them as **discord.py** makes heavy use of them to simplify many otherwise tedious problems in 
 code. **cogwatch** is a development utility that will automatically hot-reload your commands whenever you make a change.
+
 This saves time when developing from typing out your own reload commands over and over for small changes, and doesn't 
 require a hit to your rate limits. We also pass in the **preload** parameter, which means we can skip writing a method 
 to load all our command files for now as they will be loaded in automatically.
@@ -116,7 +117,9 @@ if __name__ == '__main__':
 
 Pretty simple for now: we call a function from the **python-dotenv** library to allow us to access our **.env** file 
 variables in our code. After that, we create an instance of our  Client class and then call a method defined on its 
-parent, start(). This takes our bot token in order to run, so we pass that in. Finally, we pass our main function into 
+parent, start(). This takes our bot token in order to run, so we pass that in. 
+
+Finally, we pass our main function into 
 the asyncio.run() function, which will start an event loop and all lights are ago! As long as you've invited your bot 
 into your server, it should be online!
 
