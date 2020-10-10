@@ -48,11 +48,10 @@ export default {
     },
     setTabOnBack: function() {
       let next = this.internalHistory.pop()
-      console.log(next)
+
       if (this.openTab === next) {
         this.openTab = this.internalHistory.pop()
       } else if (next === undefined) {
-        console.log('unknown run')
         this.setCurrentTab()
       } else {
         this.openTab = next
