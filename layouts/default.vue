@@ -1,12 +1,12 @@
 <template>
-  <div>
+  <div class="flex flex-col min-h-screen">
     <NavBar />
     <TutorialNavBar v-if="$route.path.includes('tutorials')"/>
-    <article class="xl:container xl:mx-auto h-full">
+    <main class="xl:container xl:mx-auto h-full flex-grow">
       <div class="bg-dis-darker rounded p-5">
         <Nuxt />
       </div>
-    </article>
+    </main>
     <Footer />
   </div>
 </template>
