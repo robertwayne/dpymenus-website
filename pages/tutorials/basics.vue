@@ -4,6 +4,10 @@
   </article>
 </template>
 
+<style>
+
+</style>
+
 <script>
 export default {
   async asyncData ({ $content }) {
