@@ -5,7 +5,7 @@ and the discord.py library. We will also be developing on Python 3.9, but Python
 
 -----
 
-### Pre-work
+### Preparation
 
 First, make sure you are in your virtual environment. If you are not sure how to do this, please read 
 [the official docs](https://docs.python.org/3/library/venv.html) on how to use 'venv'. This is an integral part of 
@@ -168,4 +168,4 @@ if __name__ == '__main__':
 ```
 </details>
 
-From here on out, this will be our base bot code used in the tutorials on how to actually use **dpymenus** to its fullest.
+From here on out, this will be our base bot code used in the tutorials. We won't need to touch this moving forward.
