@@ -1,0 +1,1 @@
+Copy-Item CNAME dist
